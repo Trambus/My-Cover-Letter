@@ -1,0 +1,75 @@
+{% extends 'base_generic.html' %}
+
+{% block content %}
+{% load static %}
+
+<div class="container-fluid">
+  <div class="row">
+		<div class="col-sm-12 hero-box" style="background-image: url({% static 'images/IMG-0463.JPG' %})">
+		</div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+      <hr />
+      <div class="letter-body">
+        <h3>Hello Motley Fool,</h3>
+        <br />
+        <p>
+          Last time we spoke, we had discussed my passion for learning
+          and my plans for the future. However, when I sat down to re-apply for
+          this summer internship: I realized that it would probably be better
+          to show rather than tell. This is a simple webpage that I have created with
+          Python and Django, styled with css, and deployed with Amazon Web Services.
+          It's nothing fancy, but I believe it conveys my progress more
+          than a plain sheet of type ever could. For anyone that it may interest,
+          I have posted my source code on <a href="https://github.com/Trambus/Cover_Letter">Github</a>.
+        </p>
+        <br />
+        <p>
+          Academically speaking, I'm quite pleased with my current path. I am currently
+          in my third semester at NOVA since returning, and I have maintained all A's and
+          B's thus far. I also enrolled in a new partnership-program between
+          NOVA and George Mason which they call ADVANCE. Now admitted, I have become an
+          official student at both colleges. Afrer working with advisors from both
+          schools, I changed my declared major from Computer Science to Computer Engineering
+          to better align with my interests and aspirations. However, I can only take two to three
+          classes per semester since I also work 20-40 hours per week at Wegmans. I feel like my
+          pace of learning has dramatically slowed down, and I would abolutely love the opportunity
+          to work with your experts and advance my development skill sets.
+        </p>
+        <br />
+        <p>
+          Admittedly, I am still largely unfamiliar with the stock market as a whole, but I
+          have been exploring your website and listening to some of the
+          podcasts that you produce. I recently listened to one of David's new episodes of
+          Rule Breakers Investing where he listed five stocks shrouded in mystery. I feel like
+          I walked away with a criminal amount of knowledge for a mere thirty minutes of my time, and
+          I gained some confidence towards starting my own stock portfolio.
+          However, it's a very daunting topic and it would be invaluable to learn directly from the professionals.
+          Not only would this internship be a wonderful advantage for the rest of my school
+          experience, but I wholeheartedly believe that I can contribute a
+          unique perspective to your Motley values and, given some time, become an integral
+          member of your team.
+          <br />
+          <br />
+          P.S. There is a hidden message if you 'Inspect Element' on this page and scroll
+          to the top of the code.
+        </p>
+        <br />
+        <p class="signature">
+          Yours Foolishly,
+          <br >
+          William T Horton
+        </p>
+      </div>
+    </div>
+  <div class="col-sm-2"></div>
+  </div>
+</div>
+
+
+{% endblock %}
